@@ -16,7 +16,7 @@ kotlin {
     androidTarget {
         @OptIn(ExperimentalKotlinGradlePluginApi::class)
         compilerOptions {
-            jvmTarget.set(JvmTarget.JVM_11)
+            jvmTarget.set(JvmTarget.JVM_17)
         }
     }
 
@@ -79,7 +79,6 @@ kotlin {
             api(libs.kotlinx.datetime)
 
             implementation(project.dependencies.platform(libs.koin.bom))
-            api(libs.koin.core)
             implementation(libs.koin.compose)
             implementation(libs.koin.composeVM)
             implementation(libs.koin.composeVM.navigation)
@@ -91,6 +90,10 @@ kotlin {
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
+        }
+        iosMain.dependencies {
+            implementation(libs.kstore.file)
+            implementation(libs.ktor.client.darwin)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
