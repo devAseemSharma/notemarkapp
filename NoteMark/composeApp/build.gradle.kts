@@ -69,6 +69,25 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtimeCompose)
+            implementation(libs.material.icons)
+            implementation("org.jetbrains.androidx.navigation:navigation-compose:2.9.0-beta03")
+
+
+            implementation(libs.kotlinx.coroutines.core)
+            implementation(libs.kotlinx.serialization)
+            implementation(libs.kotlinx.serialization.json)
+            api(libs.kotlinx.datetime)
+
+            implementation(project.dependencies.platform(libs.koin.bom))
+            api(libs.koin.core)
+            implementation(libs.koin.compose)
+            implementation(libs.koin.composeVM)
+            implementation(libs.koin.composeVM.navigation)
+
+            implementation(libs.bundles.ktor.common)
+
+            implementation(libs.kstore)
+            implementation(libs.kermit)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
