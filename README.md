@@ -68,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/devaseemshamra/notemarkapp/images/cover.png)
 
 A notemaking app, built using compose multiplatform tech stack which supports both android and iOS platforms.
 
@@ -133,7 +133,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: www.linkedin.com/in/dev-aseem-sharma
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/cover.png
 [kotlin]: https://img.shields.io/badge/Kotlin-B125EA?style=for-the-badge&logo=kotlin&logoColor=white
 [kotlin-url]: https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html?_cl=MTsxOzE7eWpUaGx4dGlESXJra0tpdXg1cUpCeDIyQVRveXdLRHAwbWFRaXp5MjJRUEZkakRZRlRrZXkxMkY2QmwxS2l2ZDs=
 [compose]: https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=Jetpack%20Compose&logoColor=white
