@@ -25,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/devaseemshamra/notemarkapp">
+  <a href="https://github.com/devaseemshamra/notemarkapp/images/logo.png">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
